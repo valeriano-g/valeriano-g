@@ -1,0 +1,137 @@
+$base-color: #1461ff;
+$white-base: #fafafa;
+$hovert-base: #ffffffb3;
+
+.my-information {
+    display: flex;
+    padding: 2em;
+
+    .my-image {
+        .picture-curriculum {
+            max-width: 450px;
+
+        }
+
+    }
+
+    .my-presentation {
+        margin: 2em;
+
+        .presentation {
+            color: #1461ff;
+            padding: 10px;
+
+            font-family: 'Raleway', sans-serif;
+            font-weight: 600;
+        }
+
+        .about-span {
+            text-transform: capitalize;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 600;
+            font-size: 1.5em;
+            font-style: italic;
+
+        }
+
+        .about-span::after {
+            content: '';
+            border: 2PX solid black;
+            display: flex;
+            width: 2em;
+
+        }
+
+
+        .about-that {
+            color: gray;
+            line-height: normal;
+
+        }
+    }
+
+}
+
+.principal-info {
+    text-transform: capitalize;
+
+    ul {
+        display: flex;
+        list-style: none;
+
+        li {
+            padding: 10px;
+            color: gray;
+
+
+
+
+        }
+
+        i {
+            color: black;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 600;
+        }
+
+        a {
+
+            text-decoration: none;
+            color: gray;
+        }
+    }
+}
+
+
+
+// CV-BTN
+.cv-btn {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    border-radius: 10px;
+    color: #fafafa;
+    text-decoration: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+    &:hover {
+        color: black;
+    }
+
+    &:active {
+        color: #fafafa;
+    }
+}
+
+
+.cv-btn:after {
+    content: "";
+    background-color: #1461ff;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    border-radius: 10px;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+.cv-btn:hover:after {
+    top: 0px;
+    left: 0px;
+}
+
+// @media (min-width: 768px) {
+// .cv-btn {
+//   padding: 13px 50px 13px;
+//  }
+//    }

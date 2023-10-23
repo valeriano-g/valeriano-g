@@ -1,0 +1,67 @@
+//base colors
+$base-color: #1461ff;
+$white-base: #fafafa;
+$hovert-base: #ffffffb3;
+$text-base: black;
+$background-base: #aebcb9;
+
+
+
+.certification {
+     width: 25rem;
+}
+
+.certification:hover {
+     img {
+          opacity: 0.6;
+          transition: 1s;
+
+     }
+
+     .info-background {
+          opacity: 1;
+          display: block;
+          transition: 1s;
+          top: 40%;
+
+     }
+
+}
+
+
+.certification-text::after {
+     transform: translate(380px);
+
+}
+
+#certifications-sec {
+     padding: 2em 0px 2em 0px;
+}
+
+.certification-btn {
+
+     background-color: white;
+     color: black;
+     border-radius: 10em;
+     font-size: 17px;
+     font-weight: 600;
+     padding: 1em 2em;
+     cursor: pointer;
+     transition: all 0.3s ease-in-out;
+     border: 1px solid black;
+     box-shadow: 0 0 0 0 black;
+
+     &:hover {
+          transform: translateY(-4px) translateX(-2px);
+          box-shadow: 2px 5px 0 0 black;
+     }
+
+     ;
+
+     &:active {
+          transform: translateY(2px) translateX(1px);
+          box-shadow: 0 0 0 0 black;
+     }
+
+     ;
+}

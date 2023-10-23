@@ -1,0 +1,204 @@
+$base-color: #1461ff;
+$white-base: #fafafa;
+$hovert-base: #ffffffb3;
+$text-base: black;
+$background-base: #aebcb9;
+
+
+
+
+
+
+.works-container {
+     background-color: $white-base;
+     padding-bottom: 1.2em;
+
+
+}
+
+.projects-text::after {
+     transform: translate(500px);
+
+}
+
+
+.project:hover {
+     border: none;
+
+     .project-video {
+          opacity: 0.6;
+          transition: 1s;
+          cursor: pointer;
+
+
+     }
+
+     img {
+          opacity: 0.6;
+          transition: 1s;
+
+     }
+
+     .info-background {
+          display: block;
+          transition: 1s;
+     }
+
+}
+
+.project-video:active {
+     border: 2px solid $base-color;
+}
+
+
+
+.info-background {
+     font-size: 25px;
+     display: none;
+     position: absolute;
+     top: 100%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+
+}
+
+
+.description-title {
+     font-family: 'Raleway', sans-serif;
+     font-weight: 600;
+}
+
+.description-text {
+     font-family: 'Open Sans', sans-serif;
+     font-style: italic;
+}
+
+
+.proyect-btn {
+     position: relative;
+     display: inline-block;
+     cursor: pointer;
+     outline: none;
+     border: 0;
+     vertical-align: middle;
+     text-decoration: none;
+     background: transparent;
+     padding: 0;
+     font-size: inherit;
+     font-family: inherit;
+}
+
+button.proyect-btn {
+     width: 12rem;
+     height: auto;
+}
+
+button.proyect-btn .circle {
+     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+     position: relative;
+     display: block;
+     margin: 0;
+     width: 3rem;
+     height: 3rem;
+     background: #282936;
+     border-radius: 1.625rem;
+}
+
+button.proyect-btn .circle .icon {
+     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     margin: auto;
+     background: #fff;
+}
+
+button.proyect-btn .circle .icon.arrow {
+     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+     left: 0.625rem;
+     width: 1.125rem;
+     height: 0.125rem;
+     background: none;
+}
+
+button.proyect-btn .circle .icon.arrow::before {
+     position: absolute;
+     content: "";
+     top: -0.29rem;
+     right: 0.0625rem;
+     width: 0.625rem;
+     height: 0.625rem;
+     border-top: 0.125rem solid #fff;
+     border-right: 0.125rem solid #fff;
+     transform: rotate(45deg);
+}
+
+button.proyect-btn .button-text {
+     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     padding: 0.75rem 0;
+     margin: 0 0 0 1.85rem;
+     color: #282936;
+     font-weight: 700;
+     line-height: 1.6;
+     text-align: center;
+     text-transform: uppercase;
+}
+
+button:hover .circle {
+     width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+     background: #fff;
+     transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+     color: #fff;
+}
+
+//STUDIES
+
+
+
+
+.studies-container {
+     display: flex;
+     align-items: center;
+     margin: 50px;
+
+}
+
+
+.circle-icon {
+     width: 50px;
+     height: 50px;
+     color: #fafafa;
+
+     border-radius: 50%;
+     background-color: $base-color;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     box-shadow: 0 0 10px #000;
+}
+
+.years-text {
+     padding: 14px 10px 0px 10px;
+     font-weight: 700;
+     font-size: 15px;
+     color: #1461ff;
+     font-style: italic;
+}
+
+.description-title {
+     color: #000;
+     text-decoration: underline;
+     font-style: normal;
+}

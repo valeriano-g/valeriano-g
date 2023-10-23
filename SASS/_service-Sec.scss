@@ -1,0 +1,29 @@
+
+//base colors
+$base-color: #1461ff;
+$white-base: #fafafa;
+$hovert-base: #ffffffb3;
+$text-base:black;
+$background-base: #aebcb9;
+
+
+.services-container{
+    padding: 2.5em;
+}
+
+#service-cont{
+background-color: 
+#fafaff;
+
+}
+
+.box-service:hover{
+   border-bottom: 4px solid $base-color;
+padding-top: 5px;
+transition: all 0.2s ease-in-out;
+
+ 
+} 
+.icon-box{
+    color: #1461ff;
+}

@@ -1,0 +1,199 @@
+@media only screen and (max-width: 884px) {
+  html {
+      width: 100vw;
+    } 
+    
+//GLOBAL
+.global-start{
+  h3{
+    font-weight: 700;
+    
+  }
+  .global-text{
+text-align: center;
+  }
+  
+}
+
+.global-text::after{
+  transform: translate( 260px);
+}
+
+
+    //HEADER
+    .img-responsive{
+      display: block;
+      object-fit: cover;
+      max-width: 100%;
+    
+    }
+
+.header-text{
+  position: absolute;
+top: 18%;
+text-align: center;
+right: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+.picture-curriculum{
+max-width: 270px;
+  transform: translate(-20px);
+}
+
+
+ .VIDEO-HEADER-RESPONSIVE{
+ display:none ;
+  }
+
+    .WRITING{
+      font-size: 2em;
+      font-family: 'Courier New', Courier, monospace;
+    }
+ 
+   
+  .nav-list-link{
+    display: none;
+  }
+  
+
+  .my-information{
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+
+  .my-image{
+    .picture-curriculum{
+       max-width: 300px;
+    
+       
+   } 
+   
+   }
+
+
+
+   
+ 
+//about-sec
+.my-presentation{
+ .presentation{
+ font-size: 1.2em;
+ letter-spacing: 1px;
+
+ }
+.about-that{
+  max-width: max-content;
+  letter-spacing: 1px;
+
+}
+
+}
+
+
+
+.principal-info{
+
+  font-size: 1em;
+     ul{
+flex-direction: column;
+justify-content: start;
+align-items: start;
+}
+}
+
+//certification-sec
+
+.global-text::after{
+  transform: translate( 260px);
+}
+.certification-text::after{
+  transform: translate( 345px);
+
+}
+
+.card-responsive{
+  width: 22rem;
+ 
+}
+.projects-text::after{
+  transform: translate(350px);
+}
+
+
+//works-sec
+.studies-container{
+  flex-wrap: wrap;
+}
+
+//contact-sec
+.contact-text::after{
+  transform: translate(342px);
+}
+
+.contact-cont{
+flex-direction: column;
+
+.input-contact{
+  max-width: 500px;
+  
+  }
+}
+
+ }
+
+ @media only screen and (max-width: 600px){
+
+  .header-text {
+    top: 30%;
+
+  }
+  .WRITING{
+   font-size: 1.6em;
+
+  }
+
+ /* .writing-responsive{
+    display: block;
+    font-size: 2em;
+  }*/
+
+  .contact-form{
+max-width: 360px;
+
+  .input-contact{
+    width: 100%;
+    
+    }
+}
+
+
+//picture
+.picture-curriculum{
+  max-width: 200px;
+
+  
+} 
+
+
+.global-text::after{
+  transform: translate( 126px);
+}
+.certification-text::after{
+  transform: translate( 170px);
+
+}
+
+.projects-text::after{
+  transform: translate( 165px);
+
+}
+
+
+.contact-text::after{
+  transform: translate( 170px);
+}
+
+ }

@@ -1,0 +1,37 @@
+$base-color:#1461ff;
+
+.footer-section{
+    background: $base-color;
+ padding: 1em;
+.social-media{
+   
+ ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+ }
+
+  .links-social-media{
+     
+   padding: 1rem;
+    border-radius: 200px;
+   
+  }
+
+i{
+    color: white;
+     border: 1px solid white;
+     border-radius: 100%;
+     padding: 11px;
+      font-size: 1.1rem;
+&:hover{
+    color:$base-color;
+    background-color: white;
+    transition: 0.5s;
+}
+      
+}
+
+}   
+}
